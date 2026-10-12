@@ -5,3 +5,5 @@ shard.lock
 tmp/
 *.log
 _build/
+/shard.lock
+/shard.override.yml
