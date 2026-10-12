@@ -1,0 +1,7 @@
+deps/
+lib/
+bin/
+shard.lock
+tmp/
+*.log
+_build/

@@ -1,0 +1,5 @@
+<ul>
+  <%= lv_each(@items) do |item| %>
+    <li data-id="<%= item[:id] %>"><%= item[:name] %></li>
+  <% end %>
+</ul>

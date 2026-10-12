@@ -1,0 +1,10 @@
+<div class="counter">
+  <h1>Counter</h1>
+  <span data-count="<%= @count %>">Count: <%= @count %></span>
+  <button phx-click="incr">+</button>
+  <button phx-click="decr" phx-value-step="1">-</button>
+  <form phx-submit="save">
+    <input name="note[body]">
+  </form>
+  <span data-note="<%= @last_note %>"></span>
+</div>
